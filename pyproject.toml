@@ -1,0 +1,46 @@
+[build-system]
+# Defines the tools needed to build the package
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "testing_testing_1_2_3"
+version = "0.1.0"
+description = "testing out library setup in python"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+keywords = ["sample", "packaging", "testing"]
+
+authors = [
+    {name = "Blake Thollaug"}
+]
+maintainers = [
+    {name = "Blake Thollaug"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+# Main project dependencies
+dependencies = [
+    "requests>=2.28.0",
+    "numpy",
+]
+
+# Optional dependencies (e.g., pip install ".[dev]")
+[project.optional-dependencies]
+dev = [
+    "ruff"
+    "pytest",
+]
+
+# Defines command-line scripts (e.g., running 'my-command' in terminal)
+[project.scripts]
+my-command = "my_package.module:main_function"
+
+# Tool-specific configurations
+[tool.ruff]
+line-length = 88
