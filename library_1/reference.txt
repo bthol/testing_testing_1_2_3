@@ -1,0 +1,15 @@
+Contains some info about libraries
+
+https://packaging.python.org/en/latest/
+
+Build Systems (for distributables)
+ - setuptools
+ - hatchling
+ - flit
+
+Common/Useful library dependencies
+requests
+    popular third-party HTTP library for Python, designed to make web requests "for humans" by providing a simple and intuitive API
+pytest
+    The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries
+
