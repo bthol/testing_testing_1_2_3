@@ -1,9 +1,15 @@
 Contains some info about libraries
 
+pypi = python package index
+pypa = python package authority
+
 https://packaging.python.org/en/latest/
 
+https://pypi.org/project/build/
+
+
 Build Systems (for distributables)
- - setuptools
+ - setuptools (used for this project)
  - hatchling
  - flit
 
@@ -13,3 +19,9 @@ requests
 pytest
     The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries
 
+Useful Commands
+`python -m build`   : runs a build process (if build installed)
+
+# Defines command-line scripts (e.g., running 'my-command' in terminal)
+[project.scripts]
+my-command = "package_name.module_name:function_name"

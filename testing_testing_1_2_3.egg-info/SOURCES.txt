@@ -1,0 +1,13 @@
+LICENCE
+README.md
+pyproject.toml
+src/module_1/__init__.py
+src/module_1/example.py
+src/module_2/__init__.py
+src/module_2/example.py
+testing_testing_1_2_3.egg-info/PKG-INFO
+testing_testing_1_2_3.egg-info/SOURCES.txt
+testing_testing_1_2_3.egg-info/dependency_links.txt
+testing_testing_1_2_3.egg-info/entry_points.txt
+testing_testing_1_2_3.egg-info/requires.txt
+testing_testing_1_2_3.egg-info/top_level.txt

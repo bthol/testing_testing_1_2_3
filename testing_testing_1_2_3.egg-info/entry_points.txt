@@ -1,0 +1,3 @@
+[console_scripts]
+log-m1 = testing_testing_1_2_3.module_1:cl_f
+log-m2 = testing_testing_1_2_3.module_2:cl_f
