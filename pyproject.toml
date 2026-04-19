@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "testing_testing_1_2_3"
-version = "0.1.0"
+version = "0.1.1"
 description = "testing out library setup in python"
 authors = [
     {name = "Blake Thollaug"}
@@ -17,7 +17,6 @@ readme = "README.md"
 keywords = ["sample", "packaging", "testing"]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
-
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
@@ -45,4 +44,5 @@ log-m2 = "testing_testing_1_2_3.module_2:cl_f"
 line-length = 88
 
 [tool.setuptools.packages.find]
-where = ["."]  # Tells setuptools to look for packages in the root
+where = ["./src"]  # Tells setuptools to look for packages in the root
+
